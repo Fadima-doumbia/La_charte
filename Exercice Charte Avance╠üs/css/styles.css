@@ -1,0 +1,80 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body{
+    background-color:#f2f5f7;
+    margin-bottom: 5%;
+}
+
+.header{
+    display: flex;
+    width: 78%;
+    margin: auto;
+}
+
+#buton2{
+    background-color: red;
+    color: white;
+    text-decoration:none;
+}
+
+#buton{
+    background-color: red;
+    color: white;
+    text-decoration:none;
+    display: none;
+}
+
+a, a:hover, a:visited, a:active{
+    color: white;
+    text-decoration:none;
+}
+
+#milieu{
+    width: 100%;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 20% 0 5% 0;
+}
+
+#blocUn, #blocDeux, #blocTrois, #blocQuatre, #blocCinq, #blocSix{
+    width: 78%;
+    margin: auto;
+    text-overflow: ellipsis;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 5px 5px 18px 5px rgba(0,0,0,0.21);
+}
+
+span{
+    font-size: medium;
+}
+
+/* pour faire mon accordeon j'ai mis une animation à  */
+ul{
+    cursor: pointer;
+    transition: 0.4s ease-in;
+    display: none;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+li{
+    list-style-image: url("../images/bullet.png");
+}
+
+#button {
+    cursor: pointer;
+    margin: 0 auto 60px;
+    display: block;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: bold;
+    text-shadow: grey;
+}
